@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "92367ad4-c650-41d5-978a-e526888bf186")
 	(paper "A4")
+	(title_block
+		(title "Status LEDs")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC14"
 			(pin_names

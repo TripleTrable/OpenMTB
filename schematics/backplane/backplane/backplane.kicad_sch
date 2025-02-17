@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d")
 	(paper "A3")
+	(title_block
+		(title "OpenMTB")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -592,6 +595,108 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1324,6 +1429,174 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Crystal"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4757,12 +5030,6 @@
 		(uuid "728f3c43-42f0-4695-a324-3da8893950dc")
 	)
 	(junction
-		(at 63.5 255.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72a43926-5bad-49c8-a3cf-56fabd32da08")
-	)
-	(junction
 		(at 144.78 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4811,6 +5078,12 @@
 		(uuid "860fb562-9081-4537-a87b-a8942ab744cc")
 	)
 	(junction
+		(at 163.83 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95196023-529a-4aab-8966-0fdaf0be2e6f")
+	)
+	(junction
 		(at 190.5 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4857,6 +5130,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfce2419-0b9f-4fa7-867a-e1c9f12de691")
+	)
+	(junction
+		(at 254 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4e5beeb-c636-41b2-bfeb-3b1fbadc8171")
 	)
 	(junction
 		(at 63.5 264.16)
@@ -4961,16 +5240,6 @@
 			(type default)
 		)
 		(uuid "06ec1703-e5a4-4186-bd5b-567453b698e9")
-	)
-	(wire
-		(pts
-			(xy 73.66 255.27) (xy 63.5 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08fd9007-e295-404b-846b-3b0207951d23")
 	)
 	(wire
 		(pts
@@ -5344,6 +5613,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 259.08) (xy 254 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b154335-ca69-42e2-b851-1060f6c8b45d")
+	)
+	(wire
+		(pts
 			(xy 232.41 92.71) (xy 236.22 92.71)
 		)
 		(stroke
@@ -5354,7 +5633,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 257.81) (xy 198.12 257.81)
+			(xy 162.56 257.81) (xy 163.83 257.81)
 		)
 		(stroke
 			(width 0)
@@ -5394,16 +5673,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 255.27) (xy 63.5 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4675562c-91dd-4f69-b319-10ca4d9b2707")
-	)
-	(wire
-		(pts
 			(xy 166.37 58.42) (xy 162.56 58.42)
 		)
 		(stroke
@@ -5414,7 +5683,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 260.35) (xy 246.38 260.35)
+			(xy 228.6 260.35) (xy 254 260.35)
 		)
 		(stroke
 			(width 0)
@@ -5491,16 +5760,6 @@
 			(type default)
 		)
 		(uuid "4a5aaa10-a36a-4ac6-af72-8bd96d8317d8")
-	)
-	(wire
-		(pts
-			(xy 88.9 255.27) (xy 88.9 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b23afb8-aae2-475c-a8c6-8b42f9e9ffb1")
 	)
 	(wire
 		(pts
@@ -5604,7 +5863,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 114.3) (xy 175.26 114.3)
+			(xy 162.56 114.3) (xy 203.2 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5654,7 +5913,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 111.76) (xy 175.26 111.76)
+			(xy 162.56 111.76) (xy 187.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5671,6 +5930,16 @@
 			(type default)
 		)
 		(uuid "6a08a722-f196-487c-ac6e-57eb0e215408")
+	)
+	(wire
+		(pts
+			(xy 163.83 257.81) (xy 198.12 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aae267c-d662-4bfb-a371-ad5df10551c9")
 	)
 	(wire
 		(pts
@@ -5991,6 +6260,16 @@
 			(type default)
 		)
 		(uuid "8eb4423d-c37b-4d86-8667-564382b4869f")
+	)
+	(wire
+		(pts
+			(xy 163.83 256.54) (xy 163.83 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5a20ba-917c-42a2-92e1-72f03cf68375")
 	)
 	(wire
 		(pts
@@ -6334,7 +6613,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 246.38) (xy 63.5 255.27)
+			(xy 63.5 246.38) (xy 63.5 264.16)
 		)
 		(stroke
 			(width 0)
@@ -6554,6 +6833,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 260.35) (xy 255.27 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9121560-809d-43ab-92c3-82e9e553cb48")
+	)
+	(wire
+		(pts
 			(xy 63.5 264.16) (xy 67.31 264.16)
 		)
 		(stroke
@@ -6661,16 +6950,6 @@
 			(type default)
 		)
 		(uuid "ea9044f5-feed-4e46-8791-43fd463a3cc8")
-	)
-	(wire
-		(pts
-			(xy 83.82 255.27) (xy 88.9 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eab8fef6-c265-4caa-91ee-5803bd8ba68a")
 	)
 	(wire
 		(pts
@@ -7506,7 +7785,7 @@
 	)
 	(global_label "RX"
 		(shape input)
-		(at 246.38 260.35 0)
+		(at 255.27 260.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7516,7 +7795,7 @@
 		)
 		(uuid "3678118b-ebd4-40e2-b749-e98442fe9278")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.8447 260.35 0)
+			(at 260.7347 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8100,7 +8379,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 179.07 257.81 180)
+		(at 162.56 257.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8110,7 +8389,7 @@
 		)
 		(uuid "fc30c13f-5d61-4c13-9b9f-7025135ae7ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.9077 257.81 0)
+			(at 157.3977 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8862,6 +9141,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 254 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c70c769-7ab4-4058-b915-66f3b00dc4e6")
+		(property "Reference" "TP24"
+			(at 256.54 254.5079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RX TP"
+			(at 256.54 257.0479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 259.08 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 254 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f70170e0-0c50-435f-bad7-4abb5217659b")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 109.22 27.94 0)
 		(unit 1)
@@ -9219,7 +9565,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "12p"
 			(at 72.39 241.3 90)
 			(effects
 				(font
@@ -9287,7 +9633,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "30 p"
 			(at 30.48 240.03 90)
 			(effects
 				(font
@@ -9474,80 +9820,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND24")
-		(at 78.74 255.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f034713-6f22-46f5-b300-6185f4c995de")
-		(property "Reference" "Y2"
-			(at 87.63 250.3168 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "32....khz"
-			(at 87.63 252.8568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 78.74 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0e21f205-b0f4-4f7f-9372-45aecaf4b8d7")
-		)
-		(pin "1"
-			(uuid "fb762c75-bd4f-460f-9b52-de258969d101")
-		)
-		(pin "3"
-			(uuid "7dd62a2b-0799-474e-8170-809a257ea118")
-		)
-		(pin "4"
-			(uuid "e35e467e-91b8-4813-8cd2-b699656cfe80")
-		)
-		(instances
-			(project "backplane"
-				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 29.21 262.89 90)
 		(unit 1)
@@ -9565,7 +9837,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "30 p"
 			(at 29.21 257.81 90)
 			(effects
 				(font
@@ -9676,6 +9948,73 @@
 			(project "backplane"
 				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
 					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d30e55-74ae-445c-8fe4-1a07103af6bd")
+		(property "Reference" "TP23"
+			(at 166.37 251.9679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TX TP"
+			(at 166.37 254.5079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 168.91 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 163.83 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27f15f4f-8dbe-47c1-a60d-345dd9242893")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -9902,6 +10241,76 @@
 			(project "backplane"
 				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 78.74 255.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73051963-b7cb-46fd-af22-3fa3434f31af")
+		(property "Reference" "Y2"
+			(at 82.55 253.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32.7680kHz"
+			(at 82.55 256.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
+			(at 78.74 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/830062558.pdf"
+			(at 78.74 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 78.74 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e7b158e-1c7c-4b3f-ad5e-b33a46f107f9")
+		)
+		(pin "1"
+			(uuid "ff8b557a-290b-47bf-a398-616bdc8379b4")
+		)
+		(instances
+			(project ""
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -10170,72 +10579,6 @@
 			(project "backplane"
 				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 264.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93ac5551-142c-4f10-b74b-21da4c20a6da")
-		(property "Reference" "#PWR075"
-			(at 88.9 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95d12509-cec5-49ee-96c4-8b7309079c60")
-		)
-		(instances
-			(project "backplane"
-				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -10695,7 +11038,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "12p"
 			(at 71.12 259.08 90)
 			(effects
 				(font
@@ -10740,6 +11083,73 @@
 			(project "backplane"
 				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf1a7a7f-0188-4c8c-b3c5-048a4f7039c7")
+		(property "Reference" "TP22"
+			(at 205.74 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UART SEL 0"
+			(at 205.74 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 208.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6812ad9a-9755-492b-89a2-322f206c5d19")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -11520,7 +11930,7 @@
 				)
 			)
 		)
-		(property "Value" "8-25 MHz"
+		(property "Value" "8 MHz"
 			(at 46.99 251.5868 90)
 			(effects
 				(font
@@ -11528,7 +11938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:WE-XTAL_CFPX-104"
 			(at 36.83 254 0)
 			(effects
 				(font
@@ -11571,6 +11981,73 @@
 			(project "backplane"
 				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 187.96 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f670565f-a6be-495b-81e7-7fb4fd7af3ec")
+		(property "Reference" "TP21"
+			(at 190.5 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UART SEL 1"
+			(at 190.5 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80bb7255-5567-429c-9d8a-0882290e022b")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d"
+					(reference "TP21")
 					(unit 1)
 				)
 			)

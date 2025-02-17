@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "e401ad83-22d1-46b0-8f29-73f687e664ad")
 	(paper "A3")
+	(title_block
+		(title "Power supply and control")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -183,6 +186,108 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3466,6 +3571,12 @@
 		(uuid "27698b29-8b88-4d10-b850-eed0a8601f55")
 	)
 	(junction
+		(at 281.94 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a6c5ffc-692f-4593-b176-1987447e04f6")
+	)
+	(junction
 		(at 304.8 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3518,6 +3629,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f66d381-b44a-4f83-a937-67c3b75ab155")
+	)
+	(junction
+		(at 374.65 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5669ae1a-21e1-4fcf-968d-b28a678c4eac")
+	)
+	(junction
+		(at 287.02 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57e4f6dd-3d1f-4452-a744-3e0e2d7b0ec5")
 	)
 	(junction
 		(at 77.47 58.42)
@@ -3628,10 +3751,22 @@
 		(uuid "9c82b12b-e7e0-478b-b5e6-4880c636108b")
 	)
 	(junction
+		(at 287.02 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cb5cc65-4d54-4306-97d7-8f10a01b1dba")
+	)
+	(junction
 		(at 322.58 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aef38ed3-f5ed-4e6b-a942-8035edf34b86")
+	)
+	(junction
+		(at 374.65 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af2aeabf-b3ba-4ece-81ae-8fede2de16c4")
 	)
 	(junction
 		(at 68.58 147.32)
@@ -3682,6 +3817,12 @@
 		(uuid "ccdce461-83d2-4c12-a83a-89440e28ff3f")
 	)
 	(junction
+		(at 143.51 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf88e2dd-3927-4ada-a394-592baefb78bd")
+	)
+	(junction
 		(at 322.58 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3729,6 +3870,12 @@
 		(color 0 0 0 0)
 		(uuid "ee404f7e-7be8-4146-b2b7-df8ec78a8c08")
 	)
+	(junction
+		(at 369.57 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eef991dc-1744-491d-9778-e354b8347aba")
+	)
 	(wire
 		(pts
 			(xy 327.66 162.56) (xy 332.74 162.56)
@@ -3768,6 +3915,16 @@
 			(type default)
 		)
 		(uuid "02ea3f31-99c2-4d9b-985f-ff7b848101ff")
+	)
+	(wire
+		(pts
+			(xy 369.57 72.39) (xy 368.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04487351-6c44-4458-ba30-4ef6eaf22934")
 	)
 	(wire
 		(pts
@@ -3951,6 +4108,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 139.7) (xy 154.94 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a70561-426e-4421-b60a-721745ed6fec")
+	)
+	(wire
+		(pts
 			(xy 377.19 210.82) (xy 373.38 210.82)
 		)
 		(stroke
@@ -4021,7 +4188,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 139.7) (xy 154.94 139.7)
+			(xy 138.43 139.7) (xy 143.51 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4411,6 +4578,26 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 139.7) (xy 302.26 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f82f8d-7ab6-4d87-9e7b-f5bba221133f")
+	)
+	(wire
+		(pts
+			(xy 374.65 147.32) (xy 374.65 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e30a39-3b09-40da-9999-1186f7cc2881")
+	)
+	(wire
+		(pts
 			(xy 358.14 50.8) (xy 358.14 52.07)
 		)
 		(stroke
@@ -4541,7 +4728,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 139.7) (xy 302.26 139.7)
+			(xy 285.75 139.7) (xy 287.02 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4588,6 +4775,16 @@
 			(type default)
 		)
 		(uuid "68a37644-b323-4cc0-84f9-824bc1d4194c")
+	)
+	(wire
+		(pts
+			(xy 374.65 147.32) (xy 373.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fcaeee-4d56-4036-96d3-4cb475961509")
 	)
 	(wire
 		(pts
@@ -4651,7 +4848,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 54.61) (xy 166.37 54.61)
+			(xy 161.29 54.61) (xy 171.45 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4671,7 +4868,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 208.28) (xy 302.26 208.28)
+			(xy 285.75 208.28) (xy 287.02 208.28)
 		)
 		(stroke
 			(width 0)
@@ -4768,6 +4965,16 @@
 			(type default)
 		)
 		(uuid "892ef1f4-66f0-43cc-be1e-c7b29d02c2ce")
+	)
+	(wire
+		(pts
+			(xy 369.57 72.39) (xy 369.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b348646-ca1e-4dd9-a370-83a7c3f996cd")
 	)
 	(wire
 		(pts
@@ -4931,6 +5138,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 64.77) (xy 297.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2027d0c-0c56-49c0-b81b-9b88b3112433")
+	)
+	(wire
+		(pts
 			(xy 309.88 107.95) (xy 321.31 107.95)
 		)
 		(stroke
@@ -4971,7 +5188,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 147.32) (xy 373.38 147.32)
+			(xy 377.19 147.32) (xy 374.65 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5071,7 +5288,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 215.9) (xy 373.38 215.9)
+			(xy 377.19 215.9) (xy 374.65 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5098,6 +5315,16 @@
 			(type default)
 		)
 		(uuid "b8be7b13-b9bb-4714-a1f3-85c71cd3d411")
+	)
+	(wire
+		(pts
+			(xy 377.19 223.52) (xy 374.65 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d97732-01a6-4453-adb4-4a05e44366ef")
 	)
 	(wire
 		(pts
@@ -5141,6 +5368,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 215.9) (xy 373.38 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7ae9be-73e6-4746-8b52-412aad82fa62")
+	)
+	(wire
+		(pts
 			(xy 118.11 121.92) (xy 107.95 121.92)
 		)
 		(stroke
@@ -5178,6 +5415,16 @@
 			(type default)
 		)
 		(uuid "c0fc9cee-ab05-4a7e-a11a-843d4aef27e5")
+	)
+	(wire
+		(pts
+			(xy 287.02 208.28) (xy 302.26 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25c011d-2161-461d-a072-4d974cba340d")
 	)
 	(wire
 		(pts
@@ -5511,7 +5758,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 64.77) (xy 297.18 64.77)
+			(xy 280.67 64.77) (xy 281.94 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5641,6 +5888,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 154.94) (xy 374.65 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e4d4ff-df68-4468-880a-4062cd25d330")
+	)
+	(wire
+		(pts
 			(xy 54.61 156.21) (xy 54.61 154.94)
 		)
 		(stroke
@@ -5661,13 +5918,23 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 72.39) (xy 368.3 72.39)
+			(xy 372.11 72.39) (xy 369.57 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f61378ae-7bf6-462a-ba2f-19571ee339c6")
+	)
+	(wire
+		(pts
+			(xy 374.65 215.9) (xy 374.65 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f28c62-c69c-4e2e-874f-38bccd1b3212")
 	)
 	(wire
 		(pts
@@ -5698,6 +5965,16 @@
 			(type default)
 		)
 		(uuid "f8206782-f50c-4ef7-a931-e749984ab0ec")
+	)
+	(wire
+		(pts
+			(xy 372.11 80.01) (xy 369.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8814cf0-a009-4870-932d-e17736258e27")
 	)
 	(wire
 		(pts
@@ -5783,7 +6060,7 @@
 	)
 	(global_label "24v_Control"
 		(shape input)
-		(at 294.64 64.77 180)
+		(at 280.67 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5793,7 +6070,7 @@
 		)
 		(uuid "0baa7f05-1afd-4feb-9174-d6687396be50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.4065 64.77 0)
+			(at 266.4365 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +6192,7 @@
 	)
 	(global_label "3v3_Control"
 		(shape input)
-		(at 299.72 208.28 180)
+		(at 285.75 208.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5925,7 +6202,7 @@
 		)
 		(uuid "a3e35664-13f8-441b-bd39-6adf53fba633")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.4865 208.28 0)
+			(at 271.5165 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +6280,7 @@
 	)
 	(global_label "5v_Control"
 		(shape input)
-		(at 299.72 139.7 180)
+		(at 285.75 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6013,13 +6290,80 @@
 		)
 		(uuid "ff430f85-87f8-4336-a946-0f6588f34577")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 286.696 139.7 0)
+			(at 272.726 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 377.19 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "020aaceb-1e3b-4d79-9920-fcdbaeefca4a")
+		(property "Reference" "TP8"
+			(at 379.73 218.9479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3 ~{ALERT} TP"
+			(at 379.73 221.4879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 382.27 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 377.19 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "421912a0-1e01-4103-9e14-6bf2c5019012")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
+					(reference "TP8")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6904,6 +7248,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 281.94 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23a49f0b-4de2-44a9-87e2-34f2e835cc56")
+		(property "Reference" "TP5"
+			(at 284.48 60.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24V CTRL TP"
+			(at 284.48 62.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 287.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 281.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afef214a-865f-4fcd-b15a-24b25a6e1c99")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 121.92 133.35 0)
 		(unit 1)
@@ -7103,6 +7514,73 @@
 			(project "backplane"
 				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31dda04e-7f4a-4008-a480-60b93cc34dd5")
+		(property "Reference" "TP1"
+			(at 163.83 50.0379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V TP"
+			(at 163.83 52.5779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88bf1fcb-5eb2-4e1b-871a-200852d028b9")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8120,6 +8598,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 171.45 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67078a6e-960c-4d95-af4f-d112d110299a")
+		(property "Reference" "#PWR016"
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 171.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 171.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f115444-7f06-4d95-8774-4b26740de4cf")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 309.88 184.15 0)
 		(mirror x)
@@ -8932,6 +9476,73 @@
 			(project "backplane"
 				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
 					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 287.02 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7edc3657-85e6-475a-affa-96be69715223")
+		(property "Reference" "TP4"
+			(at 289.56 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V CTRL TP"
+			(at 289.56 137.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 292.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 287.02 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c254320a-346b-43e0-bcbb-f6d9f35bb8de")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -9984,6 +10595,73 @@
 			(project "backplane"
 				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 372.11 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0fc594-8d40-4539-887e-2a449080d766")
+		(property "Reference" "TP6"
+			(at 374.65 75.4379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "24V ~{ALERT} TP"
+			(at 374.65 77.9779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 377.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 372.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdb64373-2e84-458a-8739-9f4d37c0486b")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -11102,6 +11780,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 377.19 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfd5c8f5-3da7-4a1f-a711-c5ff71f22a44")
+		(property "Reference" "TP7"
+			(at 379.73 150.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V ~{ALERT} TP"
+			(at 379.73 152.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 382.27 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 377.19 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2531e7c1-8505-407c-ab3a-5a00323e2a01")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Energy:INA228")
 		(at 358.14 64.77 0)
 		(unit 1)
@@ -12091,17 +12836,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 166.37 54.61 0)
+		(lib_id "Connector:TestPoint")
+		(at 143.51 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d82d769b-b25e-4a58-8d10-8ccd46045643")
-		(property "Reference" "#PWR016"
-			(at 166.37 58.42 0)
+		(uuid "d987c0ed-e0d2-48ac-950e-a93dc8533453")
+		(property "Reference" "TP2"
+			(at 146.05 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3 TP"
+			(at 146.05 137.6679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 148.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,16 +12872,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 166.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 54.61 0)
+		(property "Datasheet" "~"
+			(at 148.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12126,17 +12881,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 166.37 54.61 0)
+		(property "Description" "test point"
+			(at 143.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12145,12 +12891,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "45a91caa-13b7-400a-96ca-7fe3818df2a9")
+			(uuid "81ac00aa-0d97-4c2a-98df-a4648b663e16")
 		)
 		(instances
 			(project "backplane"
 				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
-					(reference "#PWR016")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -12900,6 +13646,73 @@
 			(project "backplane"
 				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 287.02 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed3da6eb-28be-40a5-8bce-2a3957f20a7b")
+		(property "Reference" "TP3"
+			(at 289.56 203.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3  CTRL TP"
+			(at 289.56 206.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 292.1 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 287.02 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90b59678-e3f9-4b59-9505-629ac999e747")
+		)
+		(instances
+			(project "backplane"
+				(path "/6a958a96-5bb8-4f3d-8ec1-82a2e8d7d80d/48f51cb0-a284-4363-977e-346da8bfc084"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
